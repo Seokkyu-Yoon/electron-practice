@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <div>We are using node <script>document.write(process.versions.node)</script></div>
+    <div>Chrome <script>document.write(process.versions.chrome)</script></div>
+    <div>and Electron <script>document.write(process.versions.electron)</script></div>
+    <input id="show_notify" type="button" value="Show Notify"/>
+    <script type="text/javascript" src="../public/js/main.js"></script>
+  </body>
+</html>
